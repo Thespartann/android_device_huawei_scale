@@ -22,6 +22,11 @@ $(call inherit-product, device/huawei/scale/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
+# Device identifications
 PRODUCT_DEVICE := scale
 PRODUCT_NAME := lineage_scale
 PRODUCT_BRAND := Huawei
